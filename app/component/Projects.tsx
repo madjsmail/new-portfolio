@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import {allProjects} from './project'
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 function Projects(props: any) {
 
@@ -60,7 +61,7 @@ interface CardProps {
       ref={ref} className={`card ${inView ? 'in-view' : ''}`}
       >
         <div className="card__image">
-          <img src={imageUrl} alt={title} />
+          <Image   src={imageUrl!} alt={title} />
         </div>
         <div className="card__body">
           <div className="card__body__header">
@@ -76,7 +77,7 @@ interface CardProps {
           <div className="card__body__skills overlay-on-scroll">
   
               <p className="">{
-              skills.join(" - ")
+              skills?.join(" - ")
               }</p>
           
           </div>

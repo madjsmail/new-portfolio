@@ -15,7 +15,7 @@ function HomePortfolio() {
         <h1
          className={`home__title overlay-on-scroll ${inView ? 'in-view' : ''}`}
          ref={ref}>
-          Hi, I'am Madjid</h1>
+          Hi, I&apos;am Madjid</h1>
       
       <p 
        className={`home__description overlay-on-scroll ${inView ? 'in-view' : ''}`}>
