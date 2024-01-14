@@ -6,6 +6,7 @@ import { About } from './component/About';
 import Projects from './component/Projects';
 import Experience from './component/Experience';
 import Contact from './component/Contact';
+import Testimonial from './component/Testimonial';
 
 export default function Home() {
 
@@ -19,6 +20,7 @@ export default function Home() {
         <About/>
         <Projects/>
         <Experience/>
+        <Testimonial/>
         <Contact/>
     </div>
   );

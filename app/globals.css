@@ -864,3 +864,44 @@ a.contact__email {
 .card__body__description {
   margin-top: 10px; /* Adjust margin as needed */
 }
+
+
+.testimonial{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  backdrop-filter: blur(15px);
+  width: 70vw;
+  background-color: var(--cl--oxford-blue);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--cl--cardinal);
+}
+
+.testimonial-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--cl--snow);
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: var(--cl--snow);
+  text-align: justify;
+}
+
+.testimonial-card span {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--cl--snow);
+  margin-top: 10px;
+}
+.testimonial-card span a  {
+
+  color: var(--cl--fulvous);
+
+}
